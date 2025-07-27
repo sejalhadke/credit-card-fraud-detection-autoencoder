@@ -21,7 +21,17 @@ This project is developed as part of my MCA Final Year. It addresses the growing
 
 ---
 
-## 🧰 Tech Stack
+## 📊 Dataset
+
+This project uses the publicly available **Credit Card Fraud Detection Dataset** provided by [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+
+- It contains **284,807 transactions**, with 492 fraudulent cases.
+- All features (V1–V28) are anonymized via PCA, along with `Time`, `Amount`, and `Class` (fraud label).
+
+➡️ **Dataset link**: [https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
+> ⚠️ Due to its large size, the dataset is not included in this repository. Please download it directly from the link above.
+
 
 - **Frontend**: [Streamlit](https://streamlit.io/)
 - **Backend/ML**: Python, TensorFlow/Keras
